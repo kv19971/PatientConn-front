@@ -1,0 +1,20 @@
+#mainNav {
+    position:fixed;
+    bottom:0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.btn-lg{
+    font-size: 26px !important;
+}
+
+#cntnt {
+    margin-top: 110px;
+}
+#secNav {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
