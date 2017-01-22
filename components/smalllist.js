@@ -3,8 +3,8 @@ import React from 'react'
 import { Link } from 'react-router'
 
 class SmallList extends React.Component {
-    constructor(){
-        super();
+    constructor(props){
+        super(props);
         this.ulStyle = {
             fontSize:'35px',
             margin: '30px 0',
@@ -17,6 +17,9 @@ class SmallList extends React.Component {
             width: '100%',
             display:'block'
         };
+        if(props.warn){
+            this.liStyle.background= "red !important";
+        }
     }
     render() {
         return (
